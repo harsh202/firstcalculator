@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: 	 red;
+  border: 1px solid red;
+  padding: 5px;
+  width: 80%;
+  margin: 10px auto;
+}
+.grid2 {
+  display: grid;
+  grid-template-columns: auto;
+  background-color:black;
+  border: 3px solid rgba(0, 0, 0, 0.8);
+  padding: 5px;
+  width: 30%;
+  align-self: center;
+  margin: auto;
+  border-radius: 15px;
+}
+.grid-item {
+  background-color :#ffffcc;
+  border: 1px solid red;
+  font-size: 30px;
+  text-align: center;
+  width:100%;
+}
+.grid-item2 {
+  background-color:  #ffffcc;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  font-size: 30px;
+  text-align: center;
+  width:80%;
+  max-width: 400px;
+  margin: 10px auto;
+  overflow-x: hidden;
+  overflow: scroll;
+  overflow: hidden;
+ 
+}
+.setting{
+  border:none;
+  width:100%;
+  text-align: center;
+  overflow: auto;
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+/*.square{
+  background: #fff;
+  border: 1px solid #999;
+  font-size: 24px;
+  font-weight: bold;
+  height: 10%;
+  padding: 0;
+  width: 10%;
+  display:table-cell;
+}
+.block:nth-child(1){ 
+  width:20% 
+}
+.row{
+  display: table-row;
+}
+.block{
+  display: table;
+  width: 30%;
+}*/
